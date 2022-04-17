@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	background: red;
+}
+
+/*cabezera y logo tipo*/
+header {
+	max-width: 1000px;
+	min-height: 130px;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,c2c4c2+66 */
+background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #c2c4c2 66%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#c2c4c2 66%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#c2c4c2 66%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#c2c4c2',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+
+#logo22 {
+	width: 300px;
+	float: left;
+	margin: center;
+}
+
+/*cabezera y logo tipo*/
+
+/*menu horizontal*/
+
+#h-menu {
+	max-width: 1000px;
+	min-height: 50px;
+	background: #000;
+	margin: 0 auto;
+}
+#h-menu ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+#h-menu a {
+	color: #fff;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	background: #000;
+	font-family: arial;
+	font-size: 18px;
+}
+
+#h-menu a:hover {
+	background: #069;
+}
+
+#h-menu ul ul {
+	display: none;
+	position: absolute;
+}
+
+#h-menu ul li:hover ul {
+   display: block;
+}
+
+/*menu horizontal*/
+
+
+#banner {
+	max-width: 1000px;
+	min-height: 300px;
+	background: #fff;
+	margin: 0 auto;
+}
+#contenedor {
+	max-width: 1000px;
+	min-height: 700px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+/*menu-v*/
+#menu-v {
+	width: 300px;
+	max-height: 700px;
+	background: #ccc;
+	float: left;
+}
+#menu-v ul{
+	list-style: none;
+	padding: 10px;
+}
+
+#menu-v a {
+   display: block;
+   color: #fff;
+   background: #000;
+   padding: 10px;
+   text-decoration: none;
+ margin-bottom: 8px;
+ border-radius: 5px;
+ font-family: arial;
+ font-size: 18px;
+
+}
+#menu-v a:hover {
+	background: #069;
+}
+
+
+/*menu-v*/
+#contenido {
+	width: 700px;
+	min-height: 700px;
+	background: #ccc;
+	float: right;
+}
+footer {
+	max-width: 1000px;
+	min-height: 130px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+}
